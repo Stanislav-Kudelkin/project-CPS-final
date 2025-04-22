@@ -35,11 +35,11 @@
   &__close-btn {
     width: $brWidth;
     height: $brHeight;
-    background: url('/src/img/burger\ 2.svg') no-repeat center;
+    background: url('../img/burger\ 2.svg') no-repeat center;
   }
 
   &__logo {
-    background: url('/src/img/group.svg') no-repeat center;
+    background: url('../img/group.svg') no-repeat center;
     width: 100px;
     height: 55px;
     margin: 0 auto;
@@ -48,7 +48,7 @@
   &__search {
     width: $brWidth;
     height: $brHeight;
-    background: url('/src/img/search.svg') no-repeat center;
+    background: url('../img/search.svg') no-repeat center;
   }
 
   &__nav {
@@ -111,15 +111,15 @@
   }
 
   &__call-btn {
-    background-image: url('/src/img/call.svg');
+    background-image: url('../img/call.svg');
   }
 
   &__chat-btn {
-    background-image: url('/src/img/chat.svg');
+    background-image: url('../img/chat.svg');
   }
 
   &__profile-btn {
-    background-image: url('/src/img/profile.svg');
+    background-image: url('../img/profile.svg');
   }
 
   &__contacts {

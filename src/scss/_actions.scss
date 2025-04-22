@@ -23,7 +23,7 @@
       cursor: pointer;
       background-color: $tr;
       border: none;
-      background: url(/src/img/repair.svg) no-repeat $tr;
+      background: url(../img/repair.svg) no-repeat $tr;
     }
 
     &:hover::after {
@@ -53,7 +53,7 @@
       cursor: pointer;
       background-color: $tr;
       border: none;
-      background: url(/src/img/check.svg) no-repeat $tr;
+      background: url(../img/check.svg) no-repeat $tr;
     }
 
     &:hover::after {

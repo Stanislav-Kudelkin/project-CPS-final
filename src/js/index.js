@@ -6,17 +6,17 @@ import { Navigation, Pagination } from 'swiper/modules'
 
 // Массив для брендов
 const brandLogos = [
-  { image: '/src/img/Bitmap (1).svg', alt: 'Логотип - Lenovo' },
-  { image: '/src/img/Bitmap (2).svg', alt: 'Логотип - Samsung' },
-  { image: '/src/img/Bitmap (3).svg', alt: 'Логотип - Apple' },
-  { image: '/src/img/Bitmap (4).svg', alt: 'Логотип - ViewSonic' },
-  { image: '/src/img/Bitmap (5).svg', alt: 'Логотип - Bosch' },
-  { image: '/src/img/Bitmap (6).svg', alt: 'Логотип - Acer' },
-  { image: '/src/img/Bitmap (7).svg', alt: 'Логотип - HP' },
-  { image: '/src/img/Bitmap (8).svg', alt: 'Логотип - Sony' },
-  { image: '/src/img/Bitmap (1).svg', alt: 'Логотип - Lenovo' },
-  { image: '/src/img/Bitmap (2).svg', alt: 'Логотип - Samsung' },
-  { image: '/src/img/Bitmap (3).svg', alt: 'Логотип - Apple' }
+  { image: require('../img/lenovo-logo.svg'), alt: 'Логотип - Lenovo' },
+  { image: require('../img/samsung-logo.svg'), alt: 'Логотип - Samsung' },
+  { image: require('../img/apple-logo.svg'), alt: 'Логотип - Apple' },
+  { image: require('../img/view-logo.svg'), alt: 'Логотип - ViewSonic' },
+  { image: require('../img/bosch-logo.svg'), alt: 'Логотип - Bosch' },
+  { image: require('../img/acer-logo.svg'), alt: 'Логотип - Acer' },
+  { image: require('../img/hp-logo.svg'), alt: 'Логотип - HP' },
+  { image: require('../img/sony-logo.svg'), alt: 'Логотип - Sony' },
+  { image: require('../img/lenovo-logo.svg'), alt: 'Логотип - Lenovo' },
+  { image: require('../img/samsung-logo.svg'), alt: 'Логотип - Samsung' },
+  { image: require('../img/apple-logo.svg'), alt: 'Логотип - Apple' }
 ]
 
 //Массив для видов техники
@@ -235,7 +235,7 @@ const swiperBrands = document.querySelector('.brands__slider')
 
 if (expandButtonBrands) {
   expandButtonBrands.addEventListener('click', function () {
-    // swiperBrands.classList.toggle('show-all')
+    swiperBrands.classList.toggle('show-all')
     expandButtonBrands.classList.toggle('coup')
 
     if (swiperBrands.classList.contains('show-all')) {

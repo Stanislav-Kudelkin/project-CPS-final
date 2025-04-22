@@ -36,23 +36,23 @@
     height: $brHeight;
 
     &--burger {
-      background-image: url(/src/img/burger.svg);
+      background-image: url(../img/burger.svg);
       order: 1;
     }
     &--call {
-      background-image: url(/src/img/call.svg);
+      background-image: url(../img/call.svg);
     }
     &--chat {
-      background-image: url(/src/img/chat.svg);
+      background-image: url(../img/chat.svg);
     }
     &--profile {
-      background-image: url(/src/img/profile.svg);
+      background-image: url(../img/profile.svg);
     }
     &--repair {
-      background-image: url(/src/img/repair.svg);
+      background-image: url(../img/repair.svg);
     }
     &--check {
-      background-image: url(/src/img/check.svg);
+      background-image: url(../img/check.svg);
     }
   }
 

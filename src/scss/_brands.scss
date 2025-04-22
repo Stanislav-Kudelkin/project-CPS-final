@@ -62,7 +62,7 @@
       display: inline-block;
       width: 10px;
       height: 11px;
-      background: url(/src/img/icon.svg) no-repeat $tr;
+      background: url(../img/icon.svg) no-repeat $tr;
       margin-right: 10px;
       vertical-align: text-bottom;
       transform-style: preserve-3d;
@@ -101,7 +101,7 @@
   padding: 0 15px;
 
   &__btn {
-    background-image: url(/src/img/go.svg);
+    background-image: url(../img/go.svg);
     width: $brWidth;
     height: $brHeight;
   }
